@@ -1,0 +1,58 @@
+* {
+  align-items: center;
+}
+
+img {
+  width: 50px;
+}
+#face {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+#eyes1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 150px;
+  left: 0px;
+  top: -350px;
+}
+#mouth2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 150px;
+  left: 10px;
+  top: -280px;
+}
+#nose1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 50px;
+  left: 0px;
+  top: -470px;
+}
+#ears1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 390px;
+  left: 0px;
+  top: -770px;
+}
+#hat {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 190px;
+  left: 0px;
+  top: -1160px;
+}
