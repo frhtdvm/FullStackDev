@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.container{
+    border: 1px solid black;
+    width: 500px;
+    margin: 50px auto;
+}
+.thicc_hr{
+    border: 5px solid black;
+}
+.trt{
+    text-align: end;
+    font-size: 12px;
+}
+.wrapper{
+    display: flex;
+}
+.p1{
+    flex-basis: 60%;
+}
+.p2{
+    flex-basis: 20%;
+    text-align: end;
+}
+.thin_bhr{
+    border: 1px solid black;
+}
+.fc_r{
+    color: red;
+}
+.thin_ghr{
+    border: 1px solid lightgray;
+}
+.indent_p{
+    padding-left: 16px;
+}
+.indent_m{
+    margin-left: 16px;
+}

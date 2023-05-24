@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            border: 1px solid black;
+            width: 500px;
+            margin: 50px auto;
+            padding: 5px;
+        }
+        .wrapper{
+            display: flex;
+        }
+
+        .thicc_hr{
+            border: 5px solid black;
+        }
+        .thin_bhr{
+            border: 1px solid black;
+        }
+        .thin_ghr{
+            border: 1px solid lightgray;
+        }
+        .indent_p{
+            padding-left: 16px;
+        }
+        .indent_m{
+            margin-left: 16px;
+        }
+
+
+        .trt{
+            text-align: end;
+            font-size: 12px;
+        }
+        .p1{
+            /* border: 1px solid red; */
+            flex-basis: 60%;
+        }
+        .p2{
+            /* border: 1px  solid blue; */
+            flex-basis: 20%;
+            text-align: end;
+        }
+        .fc_r{
+            color: red;
+        }
+        .navbar{
+            height: 50px;
+            background-color: violet;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="">link1</a>
+        <a href="">link2</a>
+        <a href="">link</a>
+    </div>
+
+    <div class="container">
+        <h1>Nutrition Facts</h1>
+        <p>Serving Size 1 cup (50g)</p>
+        <p>Serving per Container 10</p>
+        <hr class="thicc_hr">
+        <div class="thicc_div"></div>
+        <div class="trt">
+            <p>with 1/2</p>
+            <p>cup 1%</p>
+        </div>
+        <div class="wrapper">
+            <p class="p1">Amount per Serving</p>
+            <p class="p2">Cereal</p>
+            <p class="p2">Milk</p>
+        </div>
+        <hr class="thin_bhr">
+        <div class="wrapper">
+            <p class="p1 fc_r">Calories</p>
+            <p class="p2">190</p>
+            <p class="p2">250</p>
+        </div>
+        <hr class="thin_ghr indent_m">
+        <div class="wrapper">
+            <p class="p1 indent_p">Calories from Fat</p>
+            <p class="p2">35</p>
+            <p class="p2">45</p>
+        </div>
+</body>
+</html>
